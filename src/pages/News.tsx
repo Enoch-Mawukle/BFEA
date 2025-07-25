@@ -9,7 +9,17 @@ const News = () => {
     <div className="min-h-screen">
       <Navigation />
       
-      <section className="pt-32 pb-20 bg-gradient-primary text-white">
+      <section 
+        //className="pt-32 pb-20 bg-gradient-primary text-white">
+        //className="pt-32 pb-20 bg-gradient-primary text-white">
+        className="relative pt-32 pb-20 text-white min-h-[60vh] flex items-center"
+        style={{
+          //backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/assets/programs/enrichment/programs.jpg)`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/assets/programs/enrichment-programs.jpg)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl lg:text-6xl font-bold mb-6">Latest News</h1>
           <p className="text-xl lg:text-2xl max-w-3xl mx-auto">

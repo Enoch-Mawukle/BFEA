@@ -8,6 +8,14 @@ import AIChat from "@/components/ui/ai-chat";
 import hero1 from "@/assets/hero/hero-1.jpg";
 import hero2 from "@/assets/hero/hero-2.jpg";
 import hero3 from "@/assets/hero/hero-3.jpg";
+import hero4 from "@/assets/hero/hero-4.jpg";
+import hero5 from "@/assets/hero/hero-5.jpg";
+import hero6 from "@/assets/hero/hero-6.jpg";
+import hero7 from "@/assets/hero/hero-7.jpg";
+import hero8 from "@/assets/hero/hero-8.jpg";
+import hero9 from "@/assets/hero/hero-9.jpg";
+import hero10 from "@/assets/hero/hero-10.jpg";
+import hero11 from "@/assets/hero/hero-11.jpg";
 import academicPrograms from "@/assets/programs/academic-programs.jpg";
 import mentorshipLeadership from "@/assets/programs/mentorship-leadership.jpg";
 import familyHealth from "@/assets/programs/family-health.jpg";
@@ -25,7 +33,7 @@ const Index = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const [currentHeroImage, setCurrentHeroImage] = useState(0);
   
-  const heroImages = [hero1, hero2, hero3];
+  const heroImages = [hero1, hero2, hero3,hero4, hero5,hero6, hero7, hero8,hero9, hero10,hero11];
 
   const testimonials = [
     {
@@ -174,7 +182,7 @@ const Index = () => {
             
             <div className="relative">
               <img 
-                src="/placeholder.svg" 
+                src="/about.jpg" 
                 alt="Group of diverse Black students engaged in learning activities with their mentor in a classroom setting"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
